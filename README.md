@@ -74,45 +74,6 @@ Ensure the following are installed and available in your environment:
 - `psql` command-line client
 - Git (optional, for version control)
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone <YOUR_REPOSITORY_URL>
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd <YOUR_PROJECT_DIRECTORY>
-   ```
-
-3. Connect to PostgreSQL:
-
-   ```bash
-   psql --username=freecodecamp --dbname=postgres
-   ```
-
-4. Create the database:
-
-   ```sql
-   CREATE DATABASE salon;
-   ```
-
-5. Connect to the database:
-
-   ```sql
-   \c salon
-   ```
-
-6. Create the `customers`, `services`, and `appointments` tables and insert the initial service records as described in the project setup.
-
-7. Exit PostgreSQL:
-
-   ```sql
-   \q
-   ```
 
 ### Running the Application
 
